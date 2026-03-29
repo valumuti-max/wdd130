@@ -1,0 +1,157 @@
+/* =========================
+   Variables
+========================= */
+:root {
+    --primary-color: #1b3a6b;
+    --secondary-color: #00a8e8;
+    --accent1-color: #f0f0f0;
+    --accent2-color: #ffffff;
+    --heading-font: Georgia, serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+/* =========================
+   Reset
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   Body
+========================= */
+body {
+    font-family: var(--body-font);
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+/* =========================
+   Layout
+========================= */
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+/* =========================
+   Header
+========================= */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+
+header img {
+    width: 80px;
+}
+
+/* =========================
+   Navigation
+========================= */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--accent2-color);
+    font-weight: bold;
+}
+
+/* =========================
+   Headings
+========================= */
+h1,
+h2 {
+    font-family: var(--heading-font);
+}
+
+/* =========================
+   Spacing
+========================= */
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* =========================
+   Hero Section
+========================= */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+}
+
+/* Top Banner */
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(27, 58, 107, 0.85);
+    color: white;
+}
+
+/* Bottom Overlay */
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(27, 58, 107, 0.85);
+    color: white;
+    padding: 20px;
+}
+
+/* Float Image (REQUIRED) */
+.hero article img {
+    float: right;
+    width: 120px;
+    margin-left: 15px;
+}
+
+/* =========================
+   Sections
+========================= */
+section h2 {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+/* =========================
+   Footer
+========================= */
+footer {
+    text-align: center;
+    padding: 15px;
+}
+
+footer img {
+    width: 40px;
+    margin: 5px;
+}
+
+/* Remove underline from icons */
+.socialmedia a {
+    text-decoration: none;
+}

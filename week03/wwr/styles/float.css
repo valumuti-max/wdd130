@@ -8,11 +8,10 @@ p {
     text-align: justify;
 }
 
-.col1 img {
+.hero article img {
     float: right;
-    margin: 0 0 15px 15px;
-    border: 1px solid rgba(0 0 0 / 0.3);
-    box-shadow: 0 0 30px #777;
+    width: 125px;
+    margin: 0 0 10px 10px;
 }
 
 footer {
