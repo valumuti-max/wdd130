@@ -37,10 +37,19 @@ header img {
     width: 80px;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
 nav ul {
     display: flex;
     list-style: none;
     gap: 20px;
+}
+
+nav {
+    background-color: #1b3a6b;
+    padding: 10px;
 }
 
 nav a {
@@ -48,6 +57,10 @@ nav a {
     padding: 10px;
     display: block;
     text-decoration: none;
+}
+
+main {
+    max-width: 800px;
 }
 
 h1,
