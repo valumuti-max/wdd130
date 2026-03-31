@@ -20,9 +20,8 @@ body {
 }
 
 header,
-main,
-footer {
-    width: 840px;
+main {
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -45,9 +44,10 @@ nav ul {
 }
 
 nav a {
+    color: white;
+    padding: 10px;
+    display: block;
     text-decoration: none;
-    color: var(--accent2-color);
-    font-weight: bold;
 }
 
 h1,
@@ -55,7 +55,10 @@ h2 {
     font-family: var(--heading-font);
 }
 
-nav,
+nav {
+    display: flex;
+}
+
 p,
 section,
 article {
