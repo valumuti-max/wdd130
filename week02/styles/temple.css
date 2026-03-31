@@ -16,29 +16,57 @@ header {
     font-size: 1.5rem;
 }
 
+/* ERROR #3 FIX: Replace 'width' with 'max-width' in the main rule 
+   Also ensures the main content is a block element for centering.
+*/
 main {
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
+    display: block;
+    /* Ensures centering on wider viewports */
 }
 
 h1 {
     margin: 10px;
     text-align: center;
+    /* ERROR #4 FIX: Added required color declaration */
+    color: #333;
 }
 
 h2 {
     border-bottom: 1px solid #222;
 }
 
+/* Base image styling (your original code) */
 img {
     width: 100%;
     height: auto;
     box-shadow: 0 0 30px #333;
 }
 
+/* ERROR #5 FIX: Targeted rule for images inside <main> (replaces base img rule if needed) */
+/* We will keep your original box-shadow but add the missing border, padding, width, and height. */
+main img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #fff;
+    /* Added required border */
+    padding: 10px;
+    /* Added required padding */
+    box-shadow: 0 0 30px #333;
+    /* Keeping your shadow */
+}
+
+/* ERROR #7 FIX: targeted rule for images inside <aside> (assuming you add a profile picture later)
+*/
+aside img {
+    width: 200px;
+    height: auto;
+}
+
 section {
     margin: 20px 0;
-    border: 1px solid rgb(0, 0, 0 / 10%);
+    border: 1px solid rgb(0 0 0 / 10%);
     padding: 10px;
     background-color: #abe;
     font-size: .9rem;
@@ -52,6 +80,67 @@ ul {
     margin: 10px;
 }
 
+/* NEW RULES FROM VALIDATION REPORT BEGIN HERE */
+
+/* ERROR #1 FIX: Added required nav rule with background-color and padding.
+*/
+nav {
+    background-color: #444;
+    /* Added required declaration */
+    padding: 10px;
+    /* Added required declaration */
+    text-align: center;
+    /* Centering the navigation */
+}
+
+/* ERROR #2 FIX: Added required nav a rule with color, padding, and display.
+*/
+nav a {
+    color: #fff;
+    /* Added required declaration */
+    padding: 10px 15px;
+    /* Added required declaration */
+    display: block;
+    /* Added required declaration */
+    text-decoration: none;
+    /* Optional, but makes navigation look better */
+}
+
+/* ERROR #6 FIX: Added required aside rule with width, margin, border, padding, background-color, and color.
+*/
+aside {
+    width: 300px;
+    /* Added required declaration */
+    margin: 20px auto;
+    /* Added required declaration */
+    border: 1px solid #ddd;
+    /* Added required declaration */
+    padding: 15px;
+    /* Added required declaration */
+    background-color: #eef;
+    /* Added required declaration */
+    color: #333;
+    /* Added required declaration */
+    text-align: center;
+    /* Centering text in aside */
+}
+
+/* ERROR #8 FIX: Added required p rule with padding: 0;.
+*/
+p {
+    padding: 0;
+    /* Added required declaration */
+}
+
 footer {
     font-size: .9rem;
+    /* ERROR #9 FIX: Added required margin-top, border-top, and text-align. */
+    margin-top: 20px;
+    /* Added required declaration */
+    border-top: 1px solid #ccc;
+    /* Added required declaration */
+    text-align: center;
+    /* Added required declaration */
+    padding: 10px;
+    /* Adding padding for layout */
 }
