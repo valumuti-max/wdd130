@@ -17,17 +17,12 @@ header {
 }
 
 main {
-    max-width: 400px;
+    max-width: 800px;
     margin: 0 auto;
-    display: block;
-
 }
 
 h1 {
-    margin: 10px;
-    text-align: center;
-
-    color: #333;
+    color: #063f94;
 }
 
 h2 {
@@ -43,12 +38,9 @@ img {
 main img {
     width: 100%;
     height: auto;
-    border: 5px solid #fff;
-
-    padding: 10px;
-
-    box-shadow: 0 0 30px #333;
-
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 0 10px #aaa;
 }
 
 aside img {
@@ -73,56 +65,33 @@ ul {
 }
 
 nav {
-    background-color: #444;
-
+    background-color: #063f94;
     padding: 10px;
-
-    text-align: center;
-
 }
 
 nav a {
-    color: #fff;
-
-    padding: 10px 15px;
-
+    color: white;
+    padding: 10px;
     display: block;
-
     text-decoration: none;
 
 }
 
-aside {
+aaside {
     width: 300px;
-
-    margin: 20px auto;
-
-    border: 1px solid #ddd;
-
-    padding: 15px;
-
-    background-color: #eef;
-
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #eee;
     color: #333;
-
-    text-align: center;
-
 }
 
 p {
     padding: 0;
-
 }
 
 footer {
-    font-size: .9rem;
-
     margin-top: 20px;
-
-    border-top: 1px solid #ccc;
-
+    border-top: 1px solid #000;
     text-align: center;
-
-    padding: 10px;
-
 }
