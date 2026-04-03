@@ -35,6 +35,10 @@ img {
     box-shadow: 0 0 30px #333;
 }
 
+img {
+    width: 150px;
+}
+
 main img {
     width: 100%;
     height: auto;
