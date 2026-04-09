@@ -47,11 +47,12 @@ div {
 
 .container3 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .columns-3 {
-    grid-column: span 3;}
+    grid-column: 1/4;
+}
 
 .three {
     margin: .25rem;
