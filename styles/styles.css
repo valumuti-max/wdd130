@@ -1,0 +1,158 @@
+:root {
+    --primary-color: #063f94;
+    --heading-font: Georgia, serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+aside {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #eee;
+    color: white;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: 10px;
+    color: white;
+}
+
+header img {
+    width: 80px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav {
+    background-color: #1b3a6b;
+    padding: 10px;
+    display: flex;
+    color: white;
+}
+
+nav a {
+    color: white;
+}
+
+aside {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #eee;
+    color: #333;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+}
+
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(27, 58, 107, 0.85);
+    color: white;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(27, 58, 107, 0.85);
+    color: white;
+    padding: 20px;
+}
+
+.hero article img {
+    float: right;
+    width: 120px;
+    margin-left: 15px;
+}
+
+section h2 {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}

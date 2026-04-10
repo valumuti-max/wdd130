@@ -30,7 +30,7 @@ aside {
     border: 1px solid #ccc;
     padding: 10px;
     background-color: #eee;
-    color: white;
+    color: #333;
 }
 
 aside img {
@@ -67,19 +67,6 @@ nav {
     padding: 10px;
     display: flex;
     color: white;
-}
-
-nav a {
-    color: white;
-}
-
-aside {
-    width: 300px;
-    margin: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    background-color: #eee;
-    color: #333;
 }
 
 nav a {
@@ -151,6 +138,7 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #000;
     text-align: center;
+    clear: both;
 }
 
 .socialmedia a {
