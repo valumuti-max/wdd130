@@ -23,12 +23,11 @@ body {
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    justify-content: space-between;
-    background-color: var(--primary-color);
-    padding: 10px;
-    color: white;
+    padding: 1rem;
+    background-color: #063f94;
 }
 
 header img {
@@ -36,19 +35,16 @@ header img {
 }
 
 nav {
-    background-color: #1b3a6b;
-    padding: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: white;
 }
 
 nav a {
-    color: white;
-    padding: 10px;
-    display: block;
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
 }
 
 h1,
