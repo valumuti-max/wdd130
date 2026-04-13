@@ -31,7 +31,42 @@
     <main>
 
         <h1>Table Exercise Example Solution</h1>
+
         <img src="images/happy-clients1.jpg" alt="Rafting team on the river">
+
+        <form>
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name">
+
+            <p>Purpose of Message</p>
+
+            <label>
+                <input type="radio" name="purpose" value="general">
+                General Inquiry
+            </label>
+
+            <label>
+                <input type="radio" name="purpose" value="booking">
+                Booking Question
+            </label>
+
+            <label>
+                <input type="radio" name="purpose" value="feedback">
+                Feedback
+            </label>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+
+            <label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                Subscribe to newsletter
+            </label>
+
+            <button type="submit">Send Inquiry</button>
+
+        </form>
 
         <table>
             <thead>
