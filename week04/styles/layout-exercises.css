@@ -36,7 +36,8 @@ div {
 
 .container2 {
     display: flex;
-
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .two {
@@ -46,12 +47,11 @@ div {
 
 .container3 {
     display: grid;
-
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .columns-3 {
-    grid-template-columns: 1fr 1fr 1fr;
-
+    grid-column: 1/4;
 }
 
 .three {
