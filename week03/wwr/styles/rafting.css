@@ -22,7 +22,9 @@ body {
 }
 
 header {
-    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
 }
 
 header img {
@@ -30,6 +32,7 @@ header img {
 }
 
 nav {
+    display: flex;
     justify-content: flex-end;
     gap: 1rem;
 }
@@ -119,9 +122,9 @@ footer {
 /* Class Selectors */
 .adventure-gallery {
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem;
 }
 
 .adventure-gallery figure {
