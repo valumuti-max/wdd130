@@ -149,17 +149,6 @@ footer {
     object-fit: cover;
 }
 
-.employee-section {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.employee-section figure {
-    text-align: center;
-}
-
 @media (max-width: 768px) {
     .history-content {
         grid-template-columns: 1fr;
