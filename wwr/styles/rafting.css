@@ -127,6 +127,10 @@ footer {
     gap: 1rem;
 }
 
+figure {
+    text-align: center;
+}
+
 .adventure-gallery figure {
     flex: 1 1 180px;
     max-width: 200px;
