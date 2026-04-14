@@ -127,7 +127,14 @@ footer {
     gap: 1rem;
 }
 
-figure {
+.employee-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.employee-section figure {
     text-align: center;
 }
 
