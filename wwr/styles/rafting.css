@@ -89,6 +89,8 @@ footer {
     border-top: 1px solid #555;
     padding-top: 5px;
     clear: both;
+    background-color: #063f94;
+    color: white;
 }
 
 section h2 {
@@ -102,11 +104,6 @@ p {
     margin: 16px;
     padding: 8px;
     text-align: justify;
-}
-
-footer {
-    background-color: #063f94;
-    color: white;
 }
 
 .social {
