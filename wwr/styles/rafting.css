@@ -232,3 +232,13 @@ iframe {
     border-radius: 8px;
     margin-top: 1rem;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
