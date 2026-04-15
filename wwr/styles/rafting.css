@@ -242,3 +242,35 @@ iframe {
 .grid img {
     width: 100%;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #063f94;
+    color: white;
+    text-align: left;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+tr:hover {
+    background-color: #e6f0ff;
+    transition: 0.3s;
+}
