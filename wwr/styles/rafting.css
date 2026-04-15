@@ -13,7 +13,7 @@
 body {
     font-family: var(--body-font);
     color: #333;
-    background-color: #f0f0f0;
+    background-color: #f8f7f9;
 }
 
 .history-content {
@@ -69,7 +69,7 @@ h2 {
     left: 20px;
     right: 20px;
     background-color: rgba(27, 58, 107, 0.85);
-    color: white;
+    color: rgb(246, 245, 245);
     padding: 20px;
 }
 
