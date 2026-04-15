@@ -60,17 +60,13 @@ article {
 }
 
 .hero img {
-    display: block;
     width: 100%;
 }
 
 .hero h1 {
     position: absolute;
-    top: 20px;
-    width: 100%;
-    text-align: center;
-    padding: 15px;
-    background-color: rgba(27, 63, 121, 0.85);
+    top: 20%;
+    left: 20%;
     color: white;
 }
 
