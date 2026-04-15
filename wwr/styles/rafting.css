@@ -48,13 +48,6 @@ h2 {
     font-family: var(--heading-font);
 }
 
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
-}
-
 .hero {
     position: relative;
 }
@@ -80,10 +73,22 @@ article {
     padding: 20px;
 }
 
+body main {
+    padding: 1rem;
+    background-color: #eee;
+    border: 1px solid rgb(0 0 0 / 0.1);
+}
+
 .hero article img {
     float: right;
-    width: 120px;
-    margin-left: 15px;
+    width: 125px;
+    margin: 0 0 10px 10px;
+}
+
+footer {
+    border-top: 1px solid #555;
+    padding-top: 5px;
+    clear: both;
 }
 
 section h2 {
@@ -94,7 +99,9 @@ section h2 {
 }
 
 p {
-    padding: 0;
+    margin: 16px;
+    padding: 8px;
+    text-align: justify;
 }
 
 footer {
@@ -115,7 +122,6 @@ footer {
     text-decoration: none;
 }
 
-/* Class Selectors */
 .adventure-gallery {
     display: flex;
     flex-wrap: wrap;
